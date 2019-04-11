@@ -1,0 +1,61 @@
+"Vim-Plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'francoiscabrol/ranger.vim'
+Plug 'ervandew/supertab'
+
+"Multiple Cursors
+Plug 'terryma/vim-multiple-cursors'
+
+"NerdTree
+Plug 'scrooloose/nerdtree'
+
+"Visual
+Plug 'itchyny/lightline.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+"Javascript Syntax
+Plug 'jelera/vim-javascript-syntax'
+
+"NodeJS
+Plug 'moll/vim-node'
+
+
+call plug#end()
+
+"Vim Color Theme
+syntax on
+color dracula
+
+"Relative Line Numbers
+set number relativenumber
+
+"LightLine
+set laststatus=2
+
+
+"Set Leader to ,
+let mapleader=","
+
+
+"Tab Controls
+map <leader>th :tabfirst<Enter>
+map <leader>tl :tablast<Enter>
+map <leader>tj :tabprevious<Enter>
+map <leader>tk :tabnext<Enter>
+map <leader>tn :RangerNewTab<Enter>
+
+
+"NerdTree
+map <C-o> :NERDTreeToggle<Cr>
+
+
+"Auto Brackets
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
