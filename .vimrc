@@ -24,6 +24,7 @@ Plug 'moll/vim-node'
 call plug#end()
 
 "Vim Color Theme
+let g:dracula_colorterm = 0
 syntax on
 color dracula
 

@@ -1,19 +1,39 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
-nautilus-icon-view-layout-timestamp=1554875429
 nautilus-desktop-icon-size=48
+nautilus-icon-view-layout-timestamp=1554988844
 
 [trash]
-nautilus-icon-position-timestamp=1554875429
+nautilus-icon-position-timestamp=1554988844
 nautilus-icon-position=56,26
 icon-scale=1
+
+[KINGSTON.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1551808475
 
 [BKL L09.volume]
 nautilus-icon-position=56,146
 icon-scale=1
-nautilus-icon-position-timestamp=1554832691
+nautilus-icon-position-timestamp=1551808537
 
 [HiSuite.volume]
 nautilus-icon-position=56,266
 icon-scale=1
-nautilus-icon-position-timestamp=1554832692
+nautilus-icon-position-timestamp=1551808538
+
+[INTENSO.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1552986463
+
+[Ubuntu 18.04.2 LTS amd64.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1554197999
+
+[2095.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1554477518

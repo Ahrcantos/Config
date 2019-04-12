@@ -121,4 +121,3 @@ fi
 
 
 alias xclip="xclip -selection c"
-alias ls="lsd"
