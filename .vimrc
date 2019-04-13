@@ -60,3 +60,5 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
+"Spell Checker"
+map <F6> :setlocal spell! spelllang=de_de<CR>
