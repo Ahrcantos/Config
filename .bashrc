@@ -121,3 +121,4 @@ fi
 
 
 alias xclip="xclip -selection c"
+set -o vi
