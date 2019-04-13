@@ -50,6 +50,12 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec st 
 
+#start vim
+bindsym $mod+v exec st vim
+
+#start ranger
+bindsym $mod+r exec st ranger
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
