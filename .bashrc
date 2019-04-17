@@ -5,6 +5,9 @@
 export EDITOR='vim'
 export VISUAL='vim'
 
+export PATH=$PATH:~/pycharm/bin
+export PATH=$PATH:~/.local/bin
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -95,8 +98,6 @@ fi
 
 # some more ls aliases
 alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -125,3 +126,6 @@ fi
 
 alias xclip="xclip -selection c"
 set -o vi
+
+alias v="vim"
+alias r="ranger"
