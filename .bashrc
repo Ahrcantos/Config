@@ -7,6 +7,7 @@ export VISUAL='vim'
 
 export PATH=$PATH:~/pycharm/bin
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.scripts
 
 # If not running interactively, don't do anything
 case $- in
