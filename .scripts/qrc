@@ -1,0 +1,4 @@
+#! /bin/bash
+
+xclip -o | qrencode -o /tmp/qr.png
+sxiv -z 250 /tmp/qr.png
