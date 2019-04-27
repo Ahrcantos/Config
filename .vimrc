@@ -38,6 +38,16 @@ set laststatus=2
 "Set Leader to ,
 let mapleader=","
 
+" Disables automatic commenting on newline:
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o"
+
+" Replace all is aliased to S.
+nnoremap S :%s//g<Left><Left>"
+
+"Leader Jumping"
+inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+map <leader><leader> <Esc>/<++><Enter>"_c4l
 
 "Tab Controls
 map <leader>th :tabfirst<Enter>
