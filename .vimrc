@@ -42,7 +42,7 @@ let mapleader=","
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o"
 
 " Replace all is aliased to S.
-nnoremap S :%s//g<Left><Left>"
+nnoremap S :%s//g<Left><Left>
 
 "Leader Jumping"
 inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
