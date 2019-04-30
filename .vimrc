@@ -34,6 +34,10 @@ set number relativenumber
 "LightLine
 set laststatus=2
 
+"Tab size
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
 
 "Set Leader to ,
 let mapleader=","
@@ -48,6 +52,14 @@ nnoremap S :%s//g<Left><Left>
 inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
 vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
 map <leader><leader> <Esc>/<++><Enter>"_c4l
+
+"Folding
+set foldmethod=manual
+augroup remember_folds
+	autocmd!
+	autocmd BufWinLeave * mkview
+	autocmd BufWinEnter * silent! loadview
+augroup END
 
 "Tab Controls
 map <leader>th :tabfirst<Enter>
