@@ -201,7 +201,6 @@ bar {
 	height 45
 	position bottom
 	strip_workspace_numbers yes
-	separator_symbol "■"
 	tray_output eDP1
 	tray_output LVDS-0
 	tray_padding 0
