@@ -1,0 +1,1 @@
+<++> = fields.Many2one(comodel_name="<++>", string="<++>", required=<++>)

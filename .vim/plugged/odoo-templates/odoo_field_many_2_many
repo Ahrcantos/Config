@@ -1,0 +1,1 @@
+<++> = fields.Many2many(comodel_name="<++>", relation="<++>", column1="<++>", column2="<++>", string="<++>")

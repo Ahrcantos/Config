@@ -1,0 +1,1 @@
+<++> = fields.One2many(comodel_name="<++>", inverse_name="<++>", string="<++>", required=<++>)

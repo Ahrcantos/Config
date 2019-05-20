@@ -1,0 +1,5 @@
+class <++>(models.Model):
+	_name = '<++>'
+	_inherit = '<++>'
+
+	name = fields.Char()

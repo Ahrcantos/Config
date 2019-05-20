@@ -1,0 +1,6 @@
+class <++>(models.Model):
+	_name = '<++>'
+	_rec_name = '<++>'
+	_description = '<++>'
+
+	name = fields.Char()

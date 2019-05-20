@@ -20,6 +20,12 @@ Plug 'jelera/vim-javascript-syntax'
 "NodeJS
 Plug 'moll/vim-node'
 
+"Fzf for vim
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+
+"Org Mode
+
 
 call plug#end()
 
@@ -41,6 +47,11 @@ set shiftwidth=2
 
 "Set Leader to ,
 let mapleader=","
+
+"Fzf mappings
+nnoremap <leader>f :Files<Enter>
+nnoremap <leader>c :Commands<Enter>
+
 
 " Disables automatic commenting on newline:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o"
@@ -84,3 +95,6 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 "Spell Checker"
 map <F6> :setlocal spell! spelllang=de_de<CR>
+
+"Odoo Templates
+source ~/.vim/plugged/odoo-templates/odoo-templates.vim
