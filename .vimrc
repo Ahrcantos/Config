@@ -2,13 +2,9 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'francoiscabrol/ranger.vim'
-Plug 'ervandew/supertab'
 
 "Multiple Cursors
 Plug 'terryma/vim-multiple-cursors'
-
-"NerdTree
-Plug 'scrooloose/nerdtree'
 
 "Visual
 Plug 'itchyny/lightline.vim'
@@ -78,10 +74,6 @@ map <leader>tl :tablast<Enter>
 map <leader>tj :tabprevious<Enter>
 map <leader>tk :tabnext<Enter>
 map <leader>tn :RangerNewTab<Enter>
-
-
-"NerdTree
-map <C-o> :NERDTreeToggle<Cr>
 
 
 "Auto Brackets
