@@ -20,8 +20,6 @@ Plug 'moll/vim-node'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
-"Org Mode
-
 
 call plug#end()
 
