@@ -6,6 +6,9 @@ Plug 'francoiscabrol/ranger.vim'
 "Multiple Cursors
 Plug 'terryma/vim-multiple-cursors'
 
+"TypeScript
+Plug 'leafgarland/typescript-vim'
+
 "Visual
 Plug 'itchyny/lightline.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -19,6 +22,8 @@ Plug 'moll/vim-node'
 "Fzf for vim
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+
+"Plug 'ycm-core/YouCompleteMe'
 
 
 call plug#end()
@@ -88,3 +93,7 @@ map <F6> :setlocal spell! spelllang=de_de<CR>
 
 "Odoo Templates
 source ~/.vim/plugged/odoo-templates/odoo-templates.vim
+
+"Emu File Type
+au BufRead,BufNewFile *.emu set filetype=emu
+
